@@ -1,0 +1,28 @@
+<div class="flex items-center sm:justify-around py-3.5 pl-2 sm:px-4 sm:py-3 md:px-0 fixed top-0 left-0 w-full">
+    <div class="flex items-center gap-1">
+        <app-icons></app-icons>
+        <span class="text-xl font-bold">Pay<span class="text-blue-500">Chiks</span></span>
+    </div>
+    <div class="flex justify-around gap-4 text-semibold text-sm text-[#1e293b] dark:text-[#baccf7] items-center hidden sm:flex">
+       <!-- Theme Toggle -->
+        <button
+            (click)="toggleTheme()"
+            class="p-1 rounded-full bg-gray-200/30 dark:bg-gray-800/30 hover:bg-gray-300 dark:hover:bg-gray-700 transition duration-300"
+            >
+        <ng-container *ngIf="theme === 'light'; else darkIcon">
+            <app-sun></app-sun>
+        </ng-container>
+
+        <ng-template #darkIcon>
+             <app-moon></app-moon>
+        </ng-template>
+
+        </button>
+
+        <span>Features</span>
+        <span>How it works</span>
+        <span>Security</span>
+        <button routerLink="/auth/signup" class="bg-blue-600 px-4 py-2 rounded-xl text-white text-bold shadow-[0px_0px_3px_0px_#1e293b] hover:bg-blue-700 transition-colors duration-200">Get Started</button>
+    </div>
+
+</div>

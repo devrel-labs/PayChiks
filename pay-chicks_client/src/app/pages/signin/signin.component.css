@@ -1,0 +1,21 @@
+
+
+
+@keyframes trans {
+  0% {
+    transform: translateX(0, 0) scale(1) rotate(30deg);
+  }
+  50% {
+    transform: translate(10px, 5px);
+  }
+  75% {
+    transform: translate(20px, 20px) scale(1.2);
+  }
+  100% {
+    transform: translateX(0,0);
+  }
+}
+
+.animate-circle {
+  animation: trans 5s ease-in-out infinite;
+}

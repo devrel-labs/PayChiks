@@ -1,0 +1,26 @@
+<div class="min-h-screen min-w-screen bg-gray-400/20 dark:bg-black flex justify-center items-center relative overflow-hidden transition-all duration-200">
+
+    <div class="animate-circle w-[100px] h-[100px] rounded-full bg-[#2550c7]/70 shadow-[10px_10px_50px_10px_#2550c7] absolute bottom-[50%] left-[45%]"></div>
+    <div class="animate-circle w-[100px] h-[100px] rounded-full bg-[#2550c7]/70 shadow-[10px_10px_50px_10px_#2550c7] absolute bottom-[40%] left-[45%]"></div>
+    <div class="animate-circle w-[100px] h-[100px] rounded-full bg-[#2550c7]/70 shadow-[10px_10px_50px_10px_#2550c7] absolute bottom-[50%] left-[50%]"></div>
+
+
+    <div class="w-96 min-h-85 rounded-xl p-6 flex flex-col justify-center bg-gray-400/10 backdrop-blur-xl border border-white/15 shadow-lg font-semibold">
+        <form class="flex flex-col gap-4 dark:text-white">
+            <div class="flex gap-2 font-bold text-xl items-center">
+                <app-icons></app-icons>
+                <span>PayChicks</span>
+            </div>
+            <h2 class="text-xl font-semibold">Sign In</h2>
+
+            <input type="text" placeholder="Email, phone or username" class="p-2 rounded-md dark:text-white dark:placeholder-gray-200 text-sm border-b-1 border-gray-100/20 focus:border-blue-500 transition-colors duration-500 focus:outline-none">
+            <input type="password" placeholder="Enter your password" class="p-2 rounded-md dark:text-white dark:placeholder-gray-200 text-sm border-b-1 border-gray-100/20 focus:border-blue-500 transition-colors duration-500 focus:outline-none">
+
+            <div class="ml-1 text-xs text-gray-600  dark:text-gray-300 mb-4 text-md font-semibold">No Account ? <a routerLink="/auth/signup"  class="text-blue-700 dark:text-blue-300">create one!</a> </div>
+            
+            <div class="w-full flex justify-end">
+                <button class="bg-gray-400/10 dark:bg-white/2 border border-gray-100/10 hover:bg-gray-400/20 dark:hover:bg-white/5 dark:text-white font-semibold py-2 w-1/2 right-0 rounded-md transition-colors duration-200">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

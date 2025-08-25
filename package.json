@@ -1,0 +1,13 @@
+{
+  "name": "pay-chiks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cd pay-chicks_client && npm install && ng serve",
+    "server": "cd pay-chicks_backend && npm install && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

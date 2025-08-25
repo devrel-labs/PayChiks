@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controllers/auth.controllers.ts","./src/controllers/open.user.controllers.ts","./src/controllers/payment.controllers.ts","./src/middlewares/user.middleware.ts","./src/routes/auth.routes.ts","./src/routes/open.routes.ts","./src/routes/payment.routes.ts","./src/utils/prismaClient.ts","./src/validation/userSchema.ts"],"version":"5.8.3"}
