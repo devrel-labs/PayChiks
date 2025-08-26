@@ -78,7 +78,6 @@ export const handlePayChicksRegisterUser = async (req: Request, res: Response) =
 
 export const handlePayChickLoginUser = async (req: Request, res: Response) => {
     const JWT_SECRET: string = process.env.JWT_SECRET || "random";
-
     try {
 
         const { username, password } = req.body;
@@ -91,6 +90,8 @@ export const handlePayChickLoginUser = async (req: Request, res: Response) => {
             account: true
            }
         })
+
+        console.log(existingUser)
 
         if (!existingUser) return res.status(401).json({
             message: "Inavlid username or password"
