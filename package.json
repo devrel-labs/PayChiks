@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Pay-Chiks is a payment gateway that allows users to pay for products or service. It provides a secure and convenient way for users to make payments, while also offering a range of features and benefits .",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrel-labs/PayChiks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrel-labs/PayChiks/issues"
+  },
+  "homepage": "https://github.com/devrel-labs/PayChiks#readme"
 }
